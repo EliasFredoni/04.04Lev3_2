@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--------header-------------*/
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+    color: #659d89;
+    font-size: 1em;
+    padding-top: 1em;
+    padding-left: 3.5em;
+    padding-bottom: 7em;
+}
+
+h1{
+    color: #659d89;
+    padding-left: 3em;
+    padding-top: 0.5em;
+}
+
+h2{
+    padding-left: 4em;
+}
+
+.social a{
+display: block;
+padding-left: 70em;
+}
+
+/* .social a:first-child{} */
+
+header p::before{
+    content: "↑";
+    padding-right: 1em;
+}
+
+/*----------------article--------------------*/
+article{
+    border-top: 1px solid;
+    color: #999;
+    padding-top: 3em;
+}
+
+
+article p{
+    font-size: 1.5em;
+    color:#000;
+    padding-left: 6em;
+}
+
+img:hover{
+    background-color:rgba(61, 59, 61, 0.863);
+}
+
+div{
+    display: inline-block;
+    padding-top: 4em;
+    padding-left: 5em;
+}
+
+div img{
+    padding-left: 4em;
+    padding-bottom: 5em; 
+}
+
+/*-------------section----------*/
+
+section{
+    border-top: 1px solid;
+    color: #999;
+}
+
+section :first-child{
+    color: #000;
+    font-size: 1.5em;
+    padding-left: 6em;
+    padding-top: 2em;
+}
+
+section :nth-child(2), :nth-child(10){
+width: 600px;
+padding-left: 25em;
+padding-top: 5em;
+}
+
+section :nth-child(3), :nth-child(11){
+    padding-left: 45em;
+    font-size: 0.8em;
+}
+
+section :nth-child(4){
+    color: #000;
+    padding-left: 24em;
+    font-size: 1.2em;
+}
+
+section :nth-child(5){
+    padding-left: 40em;
+    padding-bottom: 5em;
+}
+
+section :nth-child(6), :nth-child(14){
+    width: 600px;
+    padding-left: 40em;
+    padding-top: 5em;
+}
+
+section :nth-child(7){
+    padding-left: 70em;
+    font-size: 0.8em;
+}
+
+section :nth-child(8){
+    color: #000;
+    padding-left: 55em;
+}
+
+section :nth-child(9){
+    padding-left: 73em;
+    font-size: 0.8em;
+    padding-bottom: 5em;
+}
+
+section :nth-child(12){
+    color: #000;
+    padding-left: 34em;
+}
+
+section :nth-child(13){
+    padding-left: 48em;
+    font-size: 0.8em;
+    padding-bottom: 5em;
+}
+
+section :nth-child(15){
+    padding-left: 66.4em;
+    font-size: 0.8em;
+}
+
+section :nth-child(16){
+    color: #000;
+padding-left: 52em;
+}
+
+section :nth-child(17){
+    padding-left: 68.5em;
+    font-size: 0.8em;
+    padding-bottom: 5em;
+}
+
+/*--------footer------------------*/
+
+footer p{
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+footer p::before{
+    content: "↑";
+    padding-right: 1em;
+}
+
+footer{
+    border-top: 1px solid;
+    color: #999;
+    padding-top: 4em;
+}
+
+footer > div p::before{
+    text-align: center;
+    color: rgb(73, 3, 73);
+    content: "©";
+}
